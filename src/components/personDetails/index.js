@@ -13,7 +13,7 @@ const PersonDetails = ({ person }) => {  // Don't miss this!
             Biography
          </Typography>
 
-         <Typography variant="p" component="p">
+         <Typography variant="p" component="p" name="bio">
             {person.biography}
          </Typography>
          <Typography variant="h6" component="p">
