@@ -42,11 +42,11 @@ export default function SignInSide() {
   useEffect(() => {
     if (loading) {
       <Spinner />
-     if (user) navigate("/");
+     
       return;
      
     }
-    
+    if (user) navigate("/");
   }, [user, loading,navigate]);
   
 
